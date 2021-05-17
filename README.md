@@ -2,5 +2,11 @@
 
 Build server:
 ```
-gcc server.c error_procesing.c -W -Wall -Werror -std=c99 -o server
+gcc server.c error_processing.c -W -Wall -Werror -std=c99 -o server
+```
+
+Build client:
+
+```
+gcc client.c error_processing.c -W -Wall -Werror -std=c99 -o server
 ```

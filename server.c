@@ -26,7 +26,8 @@ int main() {
     }
     write(STDOUT_FILENO, buf, nread);
     write(file_descriptor, buf, nread);
-//    close(file_descriptor);
-//    close(listen())
+    sleep(1);
+    close(file_descriptor);
+    close(server);
     return 0;
 }
