@@ -1,6 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
 ### macOS template
 # General
+.idea
 .DS_Store
 .AppleDouble
 .LSOverride
